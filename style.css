@@ -113,6 +113,7 @@ hr {
     background-color: #FB3B49;
     color: #F2F2F2;
     padding: 4px 15px;
+    cursor: pointer;
 }
 .login-button,
 .join-button {
@@ -208,6 +209,7 @@ h2 {
     color: #FFFFFF;
     width: 25%;
     height: 30px;
+    cursor: pointer;
 }
 .box-shadow {
     box-shadow: 8px 8px 0 rgba(240, 50, 65, .1);
