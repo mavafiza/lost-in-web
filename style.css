@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #FB3B49;
+    --secondary-color: #F8F4F4;
+    --tertiary-color: #F2F2F2;
+    --quaternary-color: #FFEBB5;
+    --quinary-color: #E6DDD3;
+    --senary-color: #000000;
+    --sevenary-color: #FFFFFF;
+}
+
+body {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Header Section */
+.heart,
+.searcher,
+.npm-logo {
+    height: 20px;
+    width: fit-content;
+    padding: 1px 10px;
+}
+
+.nav-section {
+    width: 100%;
+    height: fit-content;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.nav-section div{
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+nav ul li {
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
+hr {
+    border: solid 1px rgb(227, 227, 227);
+    
+}
+.search-bar {
+    height: 30px;
+    width: 80%;
+    background-color: rgb(242, 242, 242);
+    align-items: center;
+}
+.search-section {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+.search-bar input {
+    border: none;
+}
+.background-bar {
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+}
+.search-button {
+    border: none;
+    background-color: #FB3B49;
+    color: #F2F2F2;
+    padding: 4px 15px;
+}
+.login-button,
+.join-button {
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+}
+.join-button {
+    border: grey solid 1px;
+    padding: 6px 12px;
+}
+
+/* Hero-Section */
+
+.hero-section {
+    background-color: #F8F4F4;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.hero-section article {
+    padding-top: 30px;
+    font-size: 10px;
+}
+.buttons-action {
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+.buttons-action a {
+    text-decoration: none;
+}
+
+/* Info Section */
+.info-section {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hexagon-image {
+    margin: 50px;
+    width: 15%;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.background-h2 {
+    background-color: var(--quaternary-color);
+    width: 50%;
+}
+.info-section article {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+/* Card Section */
+.card-section {
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.card-section article h3{
+    font-size: 15px;
+    color: #FB3B49;
+    font-weight: 500;
+}
+.card-section article p{
+    font-size: 10px;
+    color: #000000;
+    font-weight: 500;}
+
+.card-section article img {
+    width: 30px;
+}
+
+.create-an-org-button {
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 25%;
+}
+.box-shadow {
+    box-shadow: 8px 8px 0 rgba(240, 50, 65, .1);
+}
