@@ -43,7 +43,7 @@ body {
 .searcher,
 .npm-logo {
     height: 20px;
-    width: fit-content;
+    width: auto;
     padding: 1px 10px;
 }
 
